@@ -10,7 +10,7 @@ for(var i=0; i<=4; i++){
 	if(3==i){for(var b=1; b<=5; min.pop(), max.pop(), b++){};}
 	min.push(48, 58, 33, 44,  94, 63);
 	max.push(57, 59, 34, 46,  96, 90);
-	(2==i||4==i)?r[i-1]=r[i]=Cre(kol[i]):r[i]=Cre(kol[i]);if(4==i){r[i]+="@mailforspam.com";m=r[i-1]; r[i-1]+="@mailforspam.com";}
+	(2==i||4==i)?r[i-1]=r[i]=Cre(kol[i]):r[i]=Cre(kol[i]);if(2==i){r[i]+="@mailforspam.com";m=r[i-1]; r[i-1]+="@mailforspam.com";}
 }
 for(var i=0; i<=4; i++){document.getElementById(n[i]).value=r[i]}
 document.getElementById('i_agree_check').checked = true;
