@@ -1,6 +1,7 @@
-var n=["accountname", "email", "reenter_email", "password", "reenter_password"];
-var kol=[11, 9, 9, 11, 11];var min=[97,  48, 95,  47, 95,  47, 95, ];var max=[122, 57, 122, 57, 122, 57, 122,];
+var n=["accountname", "email", "reenter_email", "password", "reenter_password"];var kol=[11, 9, 9, 11, 11];
 var r=["", "", "", "", Rnd(10, 99)+"_PASS-",], m="";
+var min=[97,  48, 95,  47, 95,  47, 95, ];var max=[122, 57, 122, 57, 122, 57, 122,];
+
 function Rnd(min, max){return Math.floor(Math.random()*(max-min+1))+min}
 function Chr(i){1==i?i=0:i=Rnd(0,6);p=Rnd(min[i], max[i]);if(96==p||47==p)p=95;return String.fromCharCode(p);}
 function Cre(d){for(var p="", i=1, j=1; i<=d; i++, j=i){if(j==d)j=1;p+=Chr(j)};return p;}
@@ -13,3 +14,4 @@ document.getElementById('i_agree_check').checked = true;
 window.open("http://js.легко.in.ua/index.php?m="+m);
 // $('.input_note').click();
 // alert("m = "+m+"\n"+r);
+// document.getElementByClassName('input_note').click();
