@@ -11,4 +11,4 @@ if(2==i){r[i]+="@mailforspam.com";m=r[i-1]; r[i-1]+="@mailforspam.com";}}
 for(var i=0; i<=4; i++){document.getElementById(n[i]).value=r[i]}
 document.getElementById('i_agree_check').checked = true;
 // alert("m = "+m+"\n"+r);
-window.open("https://www.mfsa.info/mail/"+m+"/1");
+window.open("http://js.легко.in.ua/index.php?m="+m);
