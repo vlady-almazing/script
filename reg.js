@@ -1,3 +1,5 @@
+
+//  для поля - Java Script
 var n=['accountname', 'email', 'reenter_email', 'password', 'reenter_password'];
 var kol=[11, 9, 9, 11, ];var min=[97, 48, 95, 47, 95, 47, 95, ];var max=[122, 57, 122, 57, 122, 57, 122,];
 var r=[], m='';
@@ -17,3 +19,8 @@ window.open('http://js.xn--c1adqbs.in.ua/index.php?m='+m);
 // alert("m = "+m+"\n"+r);
 // $('.input_note').click();
 // document.getElementByClassName('input_note').click();
+
+
+
+//  для поля - CSS Styles
+#createAccountButton{ position: absolute; top: 470px; left: 265px; z-index: 901}
