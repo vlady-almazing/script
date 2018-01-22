@@ -14,11 +14,7 @@ if(2==i){r[i]+='@mailforspam.com';m=r[i-1]; r[i-1]+='@mailforspam.com'}}
 r[4]=r[3]+=Chz(7)+Chz(4)+Chz(0)+Chz(1);r[3]+='12';
 for(var i=0; i<=4; i++){document.getElementById(n[i]).value=r[i]}
 document.getElementById('i_agree_check').checked=true;
-window.open('http://js.xn--c1adqbs.in.ua/index.php?m='+m);
-// alert(' ');
-// alert("m = "+m+"\n"+r);
-// $('.input_note').click();
-// document.getElementByClassName('input_note').click();
+window.open('https://www.mfsa.info/mail/'+m+'/1');
 
 
 
