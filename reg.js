@@ -23,4 +23,4 @@ window.open('http://js.xn--c1adqbs.in.ua/index.php?m='+m);
 
 
 //  для поля - CSS Styles
-#createAccountButton{ position: absolute; top: 470px; left: 265px; z-index: 901}
+#createAccountButton{ position: absolute; top: 470px; left: 265px;}
